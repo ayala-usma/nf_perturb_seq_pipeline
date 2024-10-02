@@ -1,14 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -115,15 +105,18 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Follow the instructions to install Docker Engine via command line [right here.](https://docs.docker.com/engine/install/)
 2. Clone the repo
    ```sh
    git clone https://github.com/ayala-usma/nf_perturb_seq_pipeline.git
    ```
-3. Install NPM packages
+
+3. Run the installation script as follows:
    ```sh
-   npm install
+   chmod +x install.sh
    ```
+   This will build the docker container required to start the pipeline
+
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
@@ -197,7 +190,7 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 This project was possible because of the previous work done by the following individuals and organizations:
-* []()
+* [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * []()
 * []()
 
